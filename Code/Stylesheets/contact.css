@@ -1,0 +1,71 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(../Photos/birdbg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.heading p {
+    font-size: 17px;
+}
+
+form {
+    background: linear-gradient(#7efc3f, rgb(154, 199, 255));
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 3px;
+    resize: none;
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    background-color: greenyellow;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    color: white;
+    transition: 0.2s;
+}
+
+input[type=submit]:active {
+    border: 3px solid black;
+    transition: 0s;
+}
+
+label[for=fname], label[for=lname], input[id=fname], input[id=lname] {
+    width: 49%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    .heading {
+        font-size: 18px;
+    }
+}

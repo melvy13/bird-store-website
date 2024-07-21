@@ -1,0 +1,154 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(../Photos/birdbg5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0 30px;
+    margin: auto;
+    width: 75%;
+    color: white;
+}
+
+.heading a {
+    font-weight: bold;
+    color: rgb(104, 165, 236);
+    text-decoration: none;
+}
+
+.serviceinfo {
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(194, 255, 224, 0.10);
+    backdrop-filter: blur(5px);
+}
+
+.serviceinfo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.serviceinfo li {
+    list-style: none;
+}
+
+.serviceinfo table {
+    color: black;
+    border-collapse: collapse;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.serviceinfo caption {
+    color: white;
+}
+
+.serviceinfo th {
+    border: 1px solid black;
+    line-height: 2;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.serviceinfo td {
+    border: 1px solid black;
+    line-height: 2;
+    background-color: rgb(231, 255, 195);
+    padding: 10px;
+}
+
+.serviceinfo img {
+    width: 20%;
+    min-width: 150px;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin: 15px;
+}
+
+.serviceinfo iframe {
+    min-width: 450px;
+    width: 40%;
+    height: 350px;
+    margin: 0 10px;
+}
+
+form {
+    background: linear-gradient(#7efc3f, rgb(154, 199, 255));
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 3px;
+    resize: none;
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    background-color: greenyellow;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    color: white;
+    transition: 0.2s;
+}
+
+input[type=submit]:active {
+    border: 3px solid black;
+    transition: 0s;
+}
+
+label[for=fname], label[for=lname], input[id=fname], input[id=lname] {
+    width: 49%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    .heading {
+        font-size: 14px;
+    }
+
+    .serviceinfo {
+        font-size: 12px;
+    }
+
+    .serviceinfo iframe {
+        min-width: 240px;
+        width: 40%;
+        height: 150px;
+        margin: 0 10px;
+    }
+
+    .serviceinfo table {
+        color: black;
+        border-collapse: collapse;
+        height: auto;
+        text-align: center;
+        margin: 10px;
+        font-size: 2.5vw;
+    }
+
+}

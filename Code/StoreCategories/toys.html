@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Stylesheets/main.css">
+        <link rel="stylesheet" href="../Stylesheets/store.css">
+        <script src="../javaScript.js"></script>
+        <title>Store &mdash; Mel's Birdies</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../home.html"><img src="../Photos/logo.png"></a>
+                <div class="pageslink">
+                    <a href="../home.html">HOME</a>
+                    <a href="../store.html">STORE</a>
+                    <a href="../services.html">SERVICES</a>
+                    <a href="../contact.html">CONTACT</a>
+                    <a href="../login.html">LOGIN</a>
+                    <a href="../cart.html">CART</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="heading">
+                <h3>IMPORTANT! Read before buying!</h3>
+                <p>All products sold are non-refundable. If the original product is faulty, contact me within 
+                    <em>3 days</em> of the delivery time for it to be exchanged.</p>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search for product">
+                <button type="button">Search</button>
+            </div>
+            <div class="mainflex">
+                <div class="sidebar">
+                    <h2>Categories</h2>
+                    <ul>
+                        <a href="../store.html"><li>Featured Items</li></a>
+                        <a href="food-and-treats.html"><li>Food &amp; Treats</li></a>
+                        <a href="cages.html"><li>Cages</li></a>
+                        <a href="toys.html"><li>Toys</li></a>
+                        <a href="grooming-supplies.html"><li>Grooming Supplies</li></a>
+                        <a href="other-accessories.html"><li>Other Accessories</li></a>
+                    </ul>
+                </div>
+                <div class="itemsflex">
+                    <div class="category">
+                        <h2>Toys</h2>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/twostepladder.png">
+                        <h3>Living World Junglewood 2-Step Rope Ladder</h3>
+                        <h3>RM10.50</h3>
+                        <p>Hanging toy designed to entertain and stimulate exercise, play and activity</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/threestepladder.png">
+                        <h3>Living World Junglewood 3-Step Rope Ladder</h3>
+                        <h3>RM13.50</h3>
+                        <p>Hanging toy designed to entertain and stimulate exercise, play and activity</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/wovenballtoy.png">
+                        <h3>Planet Pleasures Woven Ball Foot Toy</h3>
+                        <h3>RM12.00</h3>
+                        <p>Made from woven strips of palm leaf for parrots to chew on and destroy</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/caterpillartoy.png">
+                        <h3>Planet Pleasures Caterpillar Shredder Toy</h3>
+                        <h3>RM13.00</h3>
+                        <p>Shreddable bird toy beautifully woven from natural palm leaf, and fits nicely on the cage bars</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/ringchainswing.png">
+                        <h3>Four Ring Chain Bird Swing</h3>
+                        <h3>RM15.00</h3>
+                        <p>Reinvented with colorful woven palm leaf and a great place for your bird to swing and hang around</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/beezteesswing.png">
+                        <h3>Beeztees Chrome Perch Swing</h3>
+                        <h3>RM12.50</h3>
+                        <p>A fun toy to hang in your bird's cage, easy to hang using the hook on the top</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/birdbasketball.png">
+                        <h3>JW Pet Basketball Toy</h3>
+                        <h3>RM15.00</h3>
+                        <p>Basketball hoop with easy&ndash;to&ndash;shoot bright red basketball, great for entertainment and exercise</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/perchsmall.png">
+                        <h3>Living World Pedi-Perch Small</h3>
+                        <h3>RM13.00</h3>
+                        <p>Small sized self grooming, non&ndash;toxic, cement perch for birds that helps trim and maintain blunt, well&ndash;groomed nails</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/perchmedium.png">
+                        <h3>Living World Pedi-Perch Medium</h3>
+                        <h3>RM13.00</h3>
+                        <p>Medium sized self grooming, non&ndash;toxic, cement perch for birds that helps trim and maintain blunt, well&ndash;groomed nails</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <img src="../Photos/perchlarge.png">
+                        <h3>Living World Pedi-Perch Large</h3>
+                        <h3>RM13.00</h3>
+                        <p>Large sized self grooming, non&ndash;toxic, cement perch for birds that helps trim and maintain blunt, well&ndash;groomed nails</p>
+                        <button type="button" onclick="addedToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <h3>Mel's Birdies</h3>
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="../login.html">Login</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Online Store</h3>
+                <ul>
+                    <li><a href="food-and-treats.html">Food & Treats</a></li>
+                    <li><a href="cages.html">Cages</a></li>
+                    <li><a href="toys.html">Toys</a></li>
+                    <li><a href="grooming-supplies.html">Grooming Supplies</a></li>
+                    <li><a href="other-accessories.html">Other Accessories</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <li><a href="../services.html#grooming">Grooming</a></li>
+                <li><a href="../services.html#boarding">Boarding</a></li>
+            </div>
+            <div>
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">X / Twitter</a></li>
+                    <li><a href="">Linkedin</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="pageinfo">
+                <p>Website created on: <span>1 Nov 2023</span></p> 
+                <p>Last updated: <span>8 Dec 2023</span></p> 
+                <p>Data collection date: <span>1 Nov 2023</span></p>
+                <br>
+                <p>Copyright &copy; 2023 Mel's Birdies. All Rights Reserved.</p>
+            </div>
+            <img src="../Photos/birdicon.png">
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(../Photos/birdbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form {
+    background: linear-gradient(#7efc3f, rgb(154, 199, 255));
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    background-color: greenyellow;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    color: white;
+    transition: 0.2s;
+}
+
+input[type=submit]:active {
+    border: 3px solid black;
+    transition: 0s;
+}
+
+input[type=checkbox] {
+    width: auto;
+    margin-left: 5px;
+}
+
+form a {
+    font-weight: bold;
+    color: rgb(31, 108, 197);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .heading {
+        font-size: 18px;
+    }
+}

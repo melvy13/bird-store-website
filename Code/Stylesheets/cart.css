@@ -1,0 +1,123 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(../Photos/birdbg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.heading p {
+    font-size: 17px;
+}
+
+.heading button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.heading button:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.heading button:active {
+    background-color: green;
+    color: black;
+    transition: 0s;
+}
+
+.cartitems {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+}
+
+.cartitems table {
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cartitems caption {
+    color: white;
+}
+
+.cartitems th {
+    border: 1px solid black;
+    background-color: greenyellow;
+    padding: 5px;
+}
+
+.cartitems td {
+    border: 1px solid black;
+    background-color: rgb(231, 255, 195);
+    padding: 5px;
+}
+
+.cartitems #total {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.cartitems button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.cartitems button:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.cartitems button:active {
+    background-color: green;
+    color: black;
+    transition: 0s;
+}
+
+.cartitems img {
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .heading {
+        font-size: 18px;
+    }
+    
+    .cartitems table, .cartitems button {
+        font-size: 3vw;
+    }
+
+    .cartitems img {
+        width: 10vw;
+    }
+}

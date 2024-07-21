@@ -1,0 +1,130 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(../Photos/birdbg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+    margin: 0 auto 20px;
+    width: 75%;
+    min-height: 80vh;
+    color: white;
+}
+
+.heading button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.heading button:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.heading button:active {
+    background-color: green;
+    color: black;
+    transition: 0s;
+}
+
+.about {
+    width: 90%;
+    margin: 50px auto;
+    color: white;
+}
+
+.about img {
+    width: 20%;
+    min-width: 150px;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin: 15px;
+}
+
+.about h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.about a {
+    font-weight: bold;
+    color: rgb(104, 165, 236);
+    text-decoration: none;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.storeinfo {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.storeinfo img {
+    min-width: 200px;
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.storeinfo table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 350px;
+    text-align: center;
+    margin: 15px;
+}
+
+.storeinfo caption {
+    color: white;
+}
+
+.storeinfo th {
+    border: 1px solid black;
+    line-height: 2;
+    background-color: greenyellow;
+}
+
+.storeinfo td {
+    border: 1px solid black;
+    line-height: 2;
+    background-color: rgb(231, 255, 195);
+}
+
+.storeaddress {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(231, 255, 195);
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        padding-top: 80px;
+        font-size: 20px;
+    }
+}
